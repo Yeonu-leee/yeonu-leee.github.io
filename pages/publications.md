@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Publications
-permalink: /publications
+title: Publications / Presentations 
+permalink: /publicationsPresentations
 ---
-# Publications
 
 <br> 
    
