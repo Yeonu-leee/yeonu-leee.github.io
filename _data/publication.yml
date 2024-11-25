@@ -7,7 +7,8 @@
     presented_at: "Presented at 22th Cultural Studies Camp"
     abstract: "The findings of this study show that trolling is closely connected to the ideology of meritocracy..."
     links:
-      - html: ""
+      - html: "../assets/pdf/2024_Meritocracy.pdf"
+      - pdf: "../assets/pdf/2024_Meritocracy.pdf"
     year: 2024
 
   - title: "Masculinity in Gaming Communities: An Analysis of Costume Play Meme"
