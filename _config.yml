@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : yeonu-leee
 description         : >-
-                      <h3>Game Curator <br>&<br> Researcher</h3><br>Delving deep into gaming worlds and exploring the rich culture that surrounds them. Passionate about crafting and decorating digital lives, aim to uncover the stories and experiences within and beyond the world of gaming.
+                      <h3>Game Researcher</h3><br>Delving deep into gaming worlds and exploring the rich culture that surrounds them. Passionate about crafting and decorating digital lives, aim to uncover the stories and experiences within and beyond the world of gaming.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : yeonu-leee/yeonu-leee.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU

@@ -3,11 +3,11 @@
   color: info # secondary / success / danger / warning / info / light / dark
 
 - name: English
-  percentage: 80
+  percentage: 70
   color: success
 
 - name: German
-  percentage: 50
+  percentage: 40
   color: 
   
 - name: Japanese
