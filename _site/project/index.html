@@ -12,7 +12,6 @@
 
   
   
-  
 
   
 
@@ -21,12 +20,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Categories">
-  <meta property="og:description" content="Yeonwoo Lee-Game ResearcherDelving deep into gaming worlds and exploring the rich culture that surrounds them. Passionate about crafting and decorating digit...">
-  <meta property="og:image" content="./assets/images/Profile/yeonu-leee.jpg">
+  <meta property="og:title" content="Project">
+  <meta property="og:description" content="Yeonwoo LeeGame Researcher•Game Curator•UX Designer ">
+  <meta property="og:image" content="">
 
-  <title>Categories</title>
-  <meta name="description" content="Yeonwoo Lee-Game ResearcherDelving deep into gaming worlds and exploring the rich culture that surrounds them. Passionate about crafting and decorating digit...">
+  <title>Project</title>
+  <meta name="description" content="Yeonwoo LeeGame Researcher•Game Curator•UX Designer ">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -62,17 +61,11 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/categories">Categories</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/AcademicWork">Academic Work</a>
 
-      <a class="nav-item nav-link " href="/publicationsPresentations">Publications / Presentations</a>
+      <a class="nav-item nav-link active" href="/project/">Project</a>
 
-      <a class="nav-item nav-link " href="/projects/">Projects</a>
-
-      <a class="nav-item nav-link " href="/writing/">Writing</a>
-
-      <a class="nav-item nav-link " href="/about/">AboutME</a>
-
-      <a class="nav-item nav-link " href="../assets/cv/2024_11_version.pdf">CV</a>
+      <a class="nav-item nav-link " href="/essay/">Essay</a>
 
       
 
@@ -81,29 +74,32 @@
   </div>
 
 </nav>
-    <!-- Collect tags from all posts --><!-- List tags & related posts -->
+    <br>
 
-<div class="py-3">
-  <h4 id="critic">Critic</h4>
-  <ol><!-- Sorting posts by date -->
-  <a href="https://www.gamegeneration.or.kr/article/b3ccd5d8-bb80-4646-9bf1-0763eae67fcd"><li>게임으로 사랑을 담아 내기</li></a>
-    <small class="text-muted"> - 10 February 2024</small>
-    <br/><a href="https://www.gamegeneration.or.kr/article/c7c04939-cb3a-47f2-8489-356f0f2e46d2"><li>타이쿤, 자유로운 세상을 생각하다</li></a>
-    <small class="text-muted"> - 10 June 2024</small>
-    <br/>
-  </ol>
-</div>
-<hr class="bg-light">
+<h1>Project</h1> 
 
-<div class="py-3">
-  <h4 id="review">Review</h4>
-  <ol><!-- Sorting posts by date -->
-  <a href="https://www.gamegeneration.or.kr/article/08cfb514-82cc-4386-94c7-2e289e1ec00a"><li><하스스톤>에서 플레이어들은 왜 감정 표현을 오용하는가?</li></a>
-    <small class="text-muted"> - 10 October 2023</small>
-    <br/>
-  </ol>
+<br> 
+
+
+<div class="card-columns m-3 mt-5">
+
+  <!-- Remote Projects -->
+  
+
+  <!-- Local Projects -->
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="http://tgsi.or.kr/reference/6" class="project card text-themed"><img id="중년-게이머-연구-img" class="card-img-top" src="../assets/images/Thumbnail/MiddleAgedGamerStudy.png" alt="중년 게이머 연구" /><div class="card-body">
+      <h5 id="중년-게이머-연구-name" class="card-title">중년 게이머 연구
+      </h5>
+      <p id="중년-게이머-연구-desc" class="card-text"> </p>
+      <p id="중년-게이머-연구-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">gamer</span></p>
+    </div>
+  </a>
 </div>
-<hr class="bg-light">
+
+  
+
+</div>
 
   </main>
   <footer class="mt-auto py-3 text-center">
@@ -154,6 +150,23 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
-</body>
+
+<!-- Add LaTex function -->
+<script type="text/javascript" async
+	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+     extensions: ["tex2jax.js"],
+     jax: ["input/TeX", "output/HTML-CSS"],
+     tex2jax: {
+       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+       processEscapes: true
+     },
+     "HTML-CSS": { availableFonts: ["TeX"] }
+   });
+</script></body>
 
 </html>

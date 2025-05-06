@@ -1,11 +1,13 @@
 ### Site Settings ###
 title               : yeonu-leee
 description         : >-
-                      <h3>Yeonwoo Lee</h3><br>-<br><h4>Game Researcher</h4>Delving deep into gaming worlds and exploring the rich culture that surrounds them. Passionate about crafting and decorating digital lives, aim to uncover the stories and experiences within and beyond the world of gaming.
+                      <h3>Yeonwoo Lee</h3><br>Game Researcher<br>•<br>Game Curator<br>•<br>UX Designer<br> 
+introduction        : Delving deep into gaming worlds and exploring the rich culture that surrounds them. Passionate about crafting and decorating digital lives, aim to uncover the stories and experiences within and beyond the world of gaming.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : yeonu-leee/yeonu-leee.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
+url                 : "https://yeonu-leee.github.io"
 
 
 ### Plugins ###
@@ -29,6 +31,7 @@ excerpt_separator: "\n\n"
 incremental: false
 
 ### Author Info ###
+
 author:
   name              : Yeonu Lee
   image             : ./assets/images/Profile/yeonu-leee.jpg
@@ -73,7 +76,7 @@ disqus:
 
 ### Analytics ###
 analytics:
-  enabled: false                                        # Set true to enable analytics
+  enabled: true                                        # Set true to enable analytics
   google:
     tracking_id: your-google-tracking-id
 

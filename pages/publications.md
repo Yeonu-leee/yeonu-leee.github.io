@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Publications / Presentations 
-permalink: /publicationsPresentations
+title: Academic Work
+permalink: /AcademicWork
 ---
+<br>
+# Academic Work
 
 <br> 
    

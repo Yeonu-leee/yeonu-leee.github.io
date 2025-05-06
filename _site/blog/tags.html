@@ -12,7 +12,6 @@
 
   
   
-  
 
   
 
@@ -22,11 +21,11 @@
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="Tags">
-  <meta property="og:description" content="Yeonwoo Lee-Game ResearcherDelving deep into gaming worlds and exploring the rich culture that surrounds them. Passionate about crafting and decorating digit...">
-  <meta property="og:image" content="./assets/images/Profile/yeonu-leee.jpg">
+  <meta property="og:description" content="Yeonwoo LeeGame Researcher•Game Curator•UX Designer ">
+  <meta property="og:image" content="">
 
   <title>Tags</title>
-  <meta name="description" content="Yeonwoo Lee-Game ResearcherDelving deep into gaming worlds and exploring the rich culture that surrounds them. Passionate about crafting and decorating digit...">
+  <meta name="description" content="Yeonwoo LeeGame Researcher•Game Curator•UX Designer ">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -62,17 +61,11 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/categories">Categories</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/AcademicWork">Academic Work</a>
 
-      <a class="nav-item nav-link " href="/publicationsPresentations">Publications / Presentations</a>
+      <a class="nav-item nav-link " href="/project/">Project</a>
 
-      <a class="nav-item nav-link " href="/projects/">Projects</a>
-
-      <a class="nav-item nav-link " href="/writing/">Writing</a>
-
-      <a class="nav-item nav-link " href="/about/">AboutME</a>
-
-      <a class="nav-item nav-link " href="../assets/cv/2024_11_version.pdf">CV</a>
+      <a class="nav-item nav-link " href="/essay/">Essay</a>
 
       
 
@@ -81,17 +74,70 @@
   </div>
 
 </nav>
-    <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <!-- Collect tags from all posts --><!-- List tags & related posts -->
+    <!-- Collect tags from all posts --><br>
+<hr>
+<br>
+
+<!-- Display all tags at the top -->
+<div class="tags-list text-center my-4">
+  <h3>CONTENT</h3>
+  <div class="d-flex flex-wrap justify-content-center gap-2" style="max-width: 900px; margin: auto;">
+    
+      <a href="#critic" 
+         class="badge badge-primary px-2 py-2 text-white text-center"
+         style="display: inline-block; min-width: 80px; max-width: 120px; font-size: 14px; border-radius: 12px; margin: 6px;">
+        Critic
+      </a>
+    
+      <a href="#review" 
+         class="badge badge-primary px-2 py-2 text-white text-center"
+         style="display: inline-block; min-width: 80px; max-width: 120px; font-size: 14px; border-radius: 12px; margin: 6px;">
+        Review
+      </a>
+    
+  </div>
+</div>
+
+<br>
+<hr>
+
+<!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
+
+<div class="input-group mt-5 px-3">
+  <input id="search-input" type="text" class="form-control search-box" placeholder="Search posts..">
+  <div class="input-group-append">
+    <span class="input-group-text border border-primary bg-primary text-white">
+      <i class="fas fa-search"></i>
+    </span>
+  </div>
+  <button class="btn btn-outline-primary ml-1" onclick="location.href = '/blog/tags';">
+    <i class="fas fa-tags"></i>
+  </button>
+</div>
+<ul class="px-3" id="results-container"></ul>
+
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
+        noResultsText: '<li class="list-group-item list-group-item-action disabled">No results found</li>',
+        json: '/search.json'
+      })
+</script>
+<br>
+
+<!-- List tags & related posts -->
 
 <div class="py-3">
   <h4 id="critic">Critic</h4>
   <ol><!-- Sorting posts by date -->
   <a href="https://www.gamegeneration.or.kr/article/b3ccd5d8-bb80-4646-9bf1-0763eae67fcd"><li>게임으로 사랑을 담아 내기</li></a>
-    <small class="text-muted"> - 10 February 2024</small>
-    <br/><a href="https://www.gamegeneration.or.kr/article/c7c04939-cb3a-47f2-8489-356f0f2e46d2"><li>타이쿤, 자유로운 세상을 생각하다</li></a>
-    <small class="text-muted"> - 10 June 2024</small>
-    <br/>
+      <small class="text-muted"> - 10 February 2024</small>
+      <br/><a href="https://www.gamegeneration.or.kr/article/c7c04939-cb3a-47f2-8489-356f0f2e46d2"><li>타이쿤, 자유로운 세상을 생각하다</li></a>
+      <small class="text-muted"> - 10 June 2024</small>
+      <br/>
   </ol>
 </div>
 <hr class="bg-light">
@@ -100,22 +146,12 @@
   <h4 id="review">Review</h4>
   <ol><!-- Sorting posts by date -->
   <a href="https://www.gamegeneration.or.kr/article/08cfb514-82cc-4386-94c7-2e289e1ec00a"><li><하스스톤>에서 플레이어들은 왜 감정 표현을 오용하는가?</li></a>
-    <small class="text-muted"> - 10 October 2023</small>
-    <br/>
+      <small class="text-muted"> - 10 October 2023</small>
+      <br/>
   </ol>
 </div>
 <hr class="bg-light">
 
-</div>
-
-<script src="https://utteranc.es/client.js"
-        repo="tonnonssi/tonnonssi.github.io"
-        issue-term="pathname"
-        label="comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
   </main>
   <footer class="mt-auto py-3 text-center">
 
@@ -165,6 +201,23 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
-</body>
+
+<!-- Add LaTex function -->
+<script type="text/javascript" async
+	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+     extensions: ["tex2jax.js"],
+     jax: ["input/TeX", "output/HTML-CSS"],
+     tex2jax: {
+       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+       processEscapes: true
+     },
+     "HTML-CSS": { availableFonts: ["TeX"] }
+   });
+</script></body>
 
 </html>

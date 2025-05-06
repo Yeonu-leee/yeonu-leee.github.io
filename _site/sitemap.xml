@@ -1,54 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- updated: 2025-05-02 -->
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
+  
+    
     <url>
-        <loc>http://localhost:4000/blog/GameGeneration02</loc>
-        
-        <lastmod>2024-06-10T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
+      <loc>http://localhost:4000/essay/</loc>
+      <lastmod></lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/</loc>
+      <lastmod></lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/project/</loc>
+      <lastmod></lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/AcademicWork</loc>
+      <lastmod></lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/search.json</loc>
+      <lastmod></lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/sitemap.xml</loc>
+      <lastmod></lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/assets/css/style.css</loc>
+      <lastmod></lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://localhost:4000/blog/tags</loc>
+      <lastmod></lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+    
+  
+    <url>
+      <loc>http://localhost:4000/blog/GameGeneration02</loc>
+      <lastmod>2024-06-10T00:00:00+09:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/GameGeneration01</loc>
+      <lastmod>2024-02-10T00:00:00+09:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
+      <loc>http://localhost:4000/blog/GameGeneration00</loc>
+      <lastmod>2023-10-10T00:00:00+09:00</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    
+    <url>
+      <loc>http://localhost:4000/tags/review/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
     </url>
     
     <url>
-        <loc>http://localhost:4000/blog/GameGeneration01</loc>
-        
-        <lastmod>2024-02-10T00:00:00+09:00</lastmod>
-        
-
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
+      <loc>http://localhost:4000/tags/critic/</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
     </url>
     
-    <url>
-        <loc>http://localhost:4000/blog/GameGeneration00</loc>
-        
-        <lastmod>2023-10-10T00:00:00+09:00</lastmod>
-        
+  
 
-        
-        <changefreq>weekly</changefreq>
-        
-
-        
-        <priority>0.5</priority>
-        
-
-    </url>
+  
     
+  
+
 </urlset>

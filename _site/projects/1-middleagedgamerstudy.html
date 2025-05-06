@@ -12,7 +12,6 @@
 
   
   
-  
 
   
 
@@ -23,7 +22,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="중년 게이머 연구">
   <meta property="og:description" content=" ">
-  <meta property="og:image" content="../assets/images/Thumbnail/MiddleAgedGamerStudy.png">
+  <meta property="og:image" content="">
 
   <title>중년 게이머 연구</title>
   <meta name="description" content=" ">
@@ -62,17 +61,11 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/categories">Categories</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/AcademicWork">Academic Work</a>
 
-      <a class="nav-item nav-link " href="/publicationsPresentations">Publications / Presentations</a>
+      <a class="nav-item nav-link " href="/project/">Project</a>
 
-      <a class="nav-item nav-link active" href="/projects/">Projects</a>
-
-      <a class="nav-item nav-link " href="/writing/">Writing</a>
-
-      <a class="nav-item nav-link " href="/about/">AboutME</a>
-
-      <a class="nav-item nav-link " href="../assets/cv/2024_11_version.pdf">CV</a>
+      <a class="nav-item nav-link " href="/essay/">Essay</a>
 
       
 
@@ -81,7 +74,12 @@
   </div>
 
 </nav>
-    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+    <div class="language-toggle">
+  <button id="toggle-ko" class="styled-button">View in English</button>
+  <button id="toggle-en" class="styled-button" style="display: none;">한국어로 보기</button>
+</div>
+
+<div class="col-lg-10 mx-auto mt-5 markdown-body">
   
 
 </div>
@@ -94,6 +92,59 @@
         crossorigin="anonymous"
         async>
 </script>
+
+<script>
+  const btnKo = document.getElementById("toggle-ko");
+  const btnEn = document.getElementById("toggle-en");
+  const contentKo = document.getElementById("content-ko");
+  const contentEn = document.getElementById("content-en");
+
+  // Set initial state to show Korean content by default
+  contentKo.style.display = "block";
+  contentEn.style.display = "none";
+  btnKo.style.display = "inline-block";
+  btnEn.style.display = "none";
+
+  // Event listeners to toggle language
+  btnKo.addEventListener("click", () => {
+    contentKo.style.display = "none";
+    contentEn.style.display = "block";
+    btnKo.style.display = "none";
+    btnEn.style.display = "inline-block";
+  });
+
+  btnEn.addEventListener("click", () => {
+    contentKo.style.display = "block";
+    contentEn.style.display = "none";
+    btnKo.style.display = "inline-block";
+    btnEn.style.display = "none";
+  });
+</script>
+
+<style>
+  .language-toggle {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 8px; /* Space between buttons */
+    margin-top: 10px; /* Optional: Adjust spacing from the top */
+  }
+
+  .styled-button {
+    background-color: transparent; /* Transparent background */
+    color: #000000; /* Black text color */
+    border: 2px solid #000000; /* Black border */
+    padding: 8px 20px; /* Adjust padding for size */
+    font-size: 16px; /* Adjust font size */
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+
+  .styled-button:hover {
+    background-color: #000000; /* Black background on hover */
+    color: #fff; /* White text on hover */
+  }
+</style>
   </main>
   <footer class="mt-auto py-3 text-center">
 
@@ -143,6 +194,23 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
-</body>
+
+<!-- Add LaTex function -->
+<script type="text/javascript" async
+	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+     extensions: ["tex2jax.js"],
+     jax: ["input/TeX", "output/HTML-CSS"],
+     tex2jax: {
+       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+       processEscapes: true
+     },
+     "HTML-CSS": { availableFonts: ["TeX"] }
+   });
+</script></body>
 
 </html>

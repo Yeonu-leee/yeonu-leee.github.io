@@ -12,7 +12,6 @@
 
   
   
-  
 
   
 
@@ -22,11 +21,11 @@
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="타이쿤, 자유로운 세상을 생각하다">
-  <meta property="og:description" content="Yeonwoo Lee-Game ResearcherDelving deep into gaming worlds and exploring the rich culture that surrounds them. Passionate about crafting and decorating digit...">
-  <meta property="og:image" content="./assets/images/Profile/yeonu-leee.jpg">
+  <meta property="og:description" content="Yeonwoo LeeGame Researcher•Game Curator•UX Designer ">
+  <meta property="og:image" content="">
 
   <title>타이쿤, 자유로운 세상을 생각하다</title>
-  <meta name="description" content="Yeonwoo Lee-Game ResearcherDelving deep into gaming worlds and exploring the rich culture that surrounds them. Passionate about crafting and decorating digit...">
+  <meta name="description" content="Yeonwoo LeeGame Researcher•Game Curator•UX Designer ">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -62,17 +61,11 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/categories">Categories</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/AcademicWork">Academic Work</a>
 
-      <a class="nav-item nav-link " href="/publicationsPresentations">Publications / Presentations</a>
+      <a class="nav-item nav-link " href="/project/">Project</a>
 
-      <a class="nav-item nav-link " href="/projects/">Projects</a>
-
-      <a class="nav-item nav-link " href="/writing/">Writing</a>
-
-      <a class="nav-item nav-link " href="/about/">AboutME</a>
-
-      <a class="nav-item nav-link " href="../assets/cv/2024_11_version.pdf">CV</a>
+      <a class="nav-item nav-link " href="/essay/">Essay</a>
 
       
 
@@ -81,29 +74,54 @@
   </div>
 
 </nav>
-    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+    <div class="language-toggle">
+  <button id="toggle-ko" class="styled-button">View in English</button>
+  <button id="toggle-en" class="styled-button" style="display: none;">한국어로 보기</button>
+</div>
+
+<div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <div class="title-container">
   <h1><b>타이쿤, 자유로운 세상을 생각하다</b></h1>
+</div>
 
 <p class="post-metadata text-muted">
-  10 June 2024 -  
+  10 June 2024 -
   <b>less than 1 min read time</b>
 
-  <br>Tags: 
+  <br>Tags:
     
-    <a class="text-decoration-none no-underline" href="/blog/tags#critic">
-      <span class="tag badge badge-pill text-primary border border-primary">Critic</span>
-    </a>
+      <a class="text-decoration-none no-underline" href="/blog/tags#critic">
+        <span class="tag badge badge-pill text-primary border border-primary">Critic</span>
+      </a>
     </p>
 
+<!-- 마크다운 내용 표시 -->
+
+
+
+<!-- 이전 이후 글 -->
+<br>
 
 
 
 
-<div class="pt-5">
+
+
+
+
+<div class="post-navigation">
+  
+    <a class="prev-post" href="/blog/GameGeneration01">
+      ← Previous: 게임으로 사랑을 담아 내기
+    </a>
+  
+  
   
 </div>
 
-
+<br><br>
+<h3>Comments</h3>
+<br>
 
 </div>
 
@@ -115,6 +133,59 @@
         crossorigin="anonymous"
         async>
 </script>
+
+<script>
+  const btnKo = document.getElementById("toggle-ko");
+  const btnEn = document.getElementById("toggle-en");
+  const contentKo = document.getElementById("content-ko");
+  const contentEn = document.getElementById("content-en");
+
+  // Set initial state to show Korean content by default
+  contentKo.style.display = "block";
+  contentEn.style.display = "none";
+  btnKo.style.display = "inline-block";
+  btnEn.style.display = "none";
+
+  // Event listeners to toggle language
+  btnKo.addEventListener("click", () => {
+    contentKo.style.display = "none";
+    contentEn.style.display = "block";
+    btnKo.style.display = "none";
+    btnEn.style.display = "inline-block";
+  });
+
+  btnEn.addEventListener("click", () => {
+    contentKo.style.display = "block";
+    contentEn.style.display = "none";
+    btnKo.style.display = "inline-block";
+    btnEn.style.display = "none";
+  });
+</script>
+
+<style>
+  .language-toggle {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    gap: 8px; /* Space between buttons */
+    margin-top: 10px; /* Optional: Adjust spacing from the top */
+  }
+
+  .styled-button {
+    background-color: transparent; /* Transparent background */
+    color: #000000; /* Black text color */
+    border: 2px solid #000000; /* Black border */
+    padding: 8px 20px; /* Adjust padding for size */
+    font-size: 16px; /* Adjust font size */
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+
+  .styled-button:hover {
+    background-color: #000000; /* Black background on hover */
+    color: #fff; /* White text on hover */
+  }
+</style>
   </main>
   <footer class="mt-auto py-3 text-center">
 
@@ -164,6 +235,23 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
-</body>
+
+<!-- Add LaTex function -->
+<script type="text/javascript" async
+	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+     extensions: ["tex2jax.js"],
+     jax: ["input/TeX", "output/HTML-CSS"],
+     tex2jax: {
+       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+       processEscapes: true
+     },
+     "HTML-CSS": { availableFonts: ["TeX"] }
+   });
+</script></body>
 
 </html>
