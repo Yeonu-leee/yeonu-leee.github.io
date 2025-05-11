@@ -7,3 +7,4 @@ description:
 img: "../assets/images/Minesweeper/image-1.png"
 external_url: https://www.gamegeneration.or.kr/article/08cfb514-82cc-4386-94c7-2e289e1ec00a
 ---
+

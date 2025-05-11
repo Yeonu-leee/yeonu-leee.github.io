@@ -1,19 +1,31 @@
-- title: "중년 게이머 연구"
+- title: "Middle-Aged Gamer Research"
   article_link: "http://tgsi.or.kr/reference/6"
   year: "11, 2022 - 04,2023"
   dev_tool:
-    - "게임이에여"
-    - "뭐지"
-    - "엥"
-  abstract: "멘트 알아서 수정하시길..."
+    - "Redefining Gamers: Insights from Korea’s Middle-Aged Players"
+  abstract: "Breaking away from the stereotype of young, male gamers, this study focuses on understanding the often-overlooked community of middle-aged gamers in Korea. Researchers conducted in-depth interviews with 35 middle-aged gamers, shedding light on their unique experiences and perspectives."
   image: "../assets/images/Thumbnail/MiddleAgedGamerStudy.png" 
 
-- title: "헤비 게이머 연구"
-  article_link: "http://tgsi.or.kr/reference/6"
-  year: "11, 2022 - 04,2023"
+- title: "Heavy Gamer Research"
+  article_link: ""
+  year: "10, 2023 - 04,2024"
   dev_tool:
-    - "게임이에여"
-    - "뭐지"
-    - "엥"
-  abstract: "멘트 알아서 수정하시길..."
+    - "Exploring the Heavy Gamer Community in Korea"
+  abstract: "This study explores the “heavy gamer” community, a group that currently leads the discourse on gaming culture in Korea. Researchers conducted in-depth interviews with 32 self-proclaimed “hardcore gamers,” uncovering their motivations, values, and unique perspectives."
+  image: "../assets/images/Thumbnail/HeavyGamerStudy.png" 
+
+- title: "Game Museum Establishment Project"
+  article_link: "https://netmarblegamemuseum.org/ko"
+  year: "05, 2024 - 12,2024"
+  dev_tool:
+    - "Curating the Core of the Game Museum: The History of Games"
+  abstract: "The foundational section, “The History of Games,” has been meticulously researched and planned to form the heart of the Game Museum. This project examines the global evolution of digital games, tracing how this medium has developed alongside technological, social, and cultural shifts. It also explores the unique journey of Korean gaming history, highlighting the interplay between local and global influences that have shaped the industry over the decades."
+  image: "../assets/images/Thumbnail/NetmarbleGameMuseum.png" 
+
+- title: "International Survey on ICD-11 Gaming Disorder"
+  article_link: ""
+  year: "05/2025-04/2025"
+  dev_tool:
+    - 
+  abstract: ""
   image: "../assets/images/Thumbnail/MiddleAgedGamerStudy.png" 
