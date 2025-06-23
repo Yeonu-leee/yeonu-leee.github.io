@@ -6,12 +6,12 @@
   abstract: "Breaking away from the stereotype of young, male gamers, this study focuses on understanding the often-overlooked community of middle-aged gamers in Korea. Researchers conducted in-depth interviews with 35 middle-aged gamers, shedding light on their unique experiences and perspectives."
   image: "../assets/images/Thumbnail/MiddleAgedGamerStudy.png" 
 
-- title: "Heavy Gamer Research"
+- title: "'Real' Gamer Research"
   year: "10, 2023 - 04,2024"
   dev_tool:
-    - "Exploring the Heavy Gamer Community in Korea"
-  abstract: "This study explores the “heavy gamer” community, a group that currently leads the discourse on gaming culture in Korea. Researchers conducted in-depth interviews with 32 self-proclaimed “hardcore gamers,” uncovering their motivations, values, and unique perspectives."
-  image: "../assets/images/Thumbnail/HeavyGamerStudy.png" 
+    - "Exploring the 'Real' Gamer Community in Korea"
+  abstract: "This study explores the  'Real' gamer” community, a group that currently leads the discourse on gaming culture in Korea. Researchers conducted in-depth interviews with 32 self-proclaimed “hardcore gamers,” uncovering their motivations, values, and unique perspectives."
+  image: "../assets/images/Thumbnail 'Real'GamerStudy.png" 
 
 - title: "Game Museum Establishment Project"
   article_link: "https://netmarblegamemuseum.org/ko"
